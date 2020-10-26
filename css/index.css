@@ -1,0 +1,59 @@
+:root {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 250px;
+    margin: auto;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 225px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    border: 3px solid;
+    border-color: purple;
+    border-radius: 10px;
+    color: purple;
+}
+
+button {
+    padding: 20px 20px 20px 20px;
+    margin: 3px;
+    border: 2px solid;
+    border-color: purple;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: white;
+    color: purple;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.eq {
+    width: 235px;
+}
